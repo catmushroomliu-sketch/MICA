@@ -1,0 +1,133 @@
+{
+  "tool": "MICA",
+  "bundle": "/Users/catmushroomliu/Documents/code/MICA/artifacts/mica_top47_bundle",
+  "accuracy_from_bundle_check": {
+    "seed_count": 20,
+    "R2_mean": 0.7883833939057129,
+    "R2_std": 0.00812704486960475,
+    "MAE_mean": 0.41300758974880025,
+    "RMSE_mean": 0.5737371733410359
+  },
+  "runtime": [
+    {
+      "task": "doctor",
+      "rows": 0,
+      "seconds": 0.07648591700000029,
+      "exit_code": 0,
+      "stdout_tail": [
+        "root:   /Users/catmushroomliu/Documents/code/MICA",
+        "python: /Library/Developer/CommandLineTools/usr/bin/python3",
+        "python deps: PASS",
+        "",
+        "MICA is ready."
+      ],
+      "stderr_tail": []
+    },
+    {
+      "task": "inspect",
+      "rows": 0,
+      "seconds": 0.8100295420000005,
+      "exit_code": 0,
+      "stdout_tail": [
+        "  ood_protocol: original-five leave-solvent-out, 20 seeds",
+        "  reported_top47_r2_mean: 0.7883833939332014",
+        "  reported_top47_r2_std: 0.008127044864693633",
+        "  bundle_check_r2_mean: 0.7883833939332014",
+        "  bundle_check_r2_std: 0.008127044864693607"
+      ],
+      "stderr_tail": []
+    },
+    {
+      "task": "validate_5424",
+      "rows": 5424,
+      "seconds": 0.8246272079999999,
+      "exit_code": 0,
+      "stdout_tail": [
+        "status: PASS",
+        "input: /Users/catmushroomliu/Documents/code/MICA/benchmarks/outputs/ood_5424_full98_features.csv",
+        "required_features: 52",
+        "present_features: 52",
+        "missing_features: 0"
+      ],
+      "stderr_tail": []
+    },
+    {
+      "task": "run_ood_5424",
+      "rows": 5424,
+      "seconds": 1.3619766249999996,
+      "rows_per_second": 3982.4472024253732,
+      "exit_code": 0,
+      "R2": 0.7980803178807725,
+      "MAE": 0.4028924199087625,
+      "RMSE": 0.5605375620747008,
+      "stdout_tail": [
+        "Predictions written: /Users/catmushroomliu/Documents/code/MICA/benchmarks/outputs/ood_5424_predictions.csv"
+      ],
+      "stderr_tail": []
+    },
+    {
+      "task": "screen_ood_5424",
+      "rows": 5424,
+      "output_rows": 3945,
+      "seconds": 0.8344272920000009,
+      "rows_per_second": 6500.266772194688,
+      "exit_code": 0,
+      "stdout_tail": [
+        "Screening table written: /Users/catmushroomliu/Documents/code/MICA/benchmarks/outputs/ood_5424_screen_top10.csv"
+      ],
+      "stderr_tail": []
+    },
+    {
+      "task": "run_ood_10848",
+      "rows": 10848,
+      "seconds": 1.4899886250000005,
+      "rows_per_second": 7280.592494456121,
+      "exit_code": 0,
+      "R2": 0.7980803178807725,
+      "MAE": 0.4028924199087625,
+      "RMSE": 0.5605375620747008,
+      "stdout_tail": [
+        "Predictions written: /Users/catmushroomliu/Documents/code/MICA/benchmarks/outputs/ood_10848_predictions.csv"
+      ],
+      "stderr_tail": []
+    },
+    {
+      "task": "screen_ood_10848",
+      "rows": 10848,
+      "output_rows": 4412,
+      "seconds": 0.8321888749999999,
+      "rows_per_second": 13035.502307093448,
+      "exit_code": 0,
+      "stdout_tail": [
+        "Screening table written: /Users/catmushroomliu/Documents/code/MICA/benchmarks/outputs/ood_10848_screen_top10.csv"
+      ],
+      "stderr_tail": []
+    },
+    {
+      "task": "run_ood_54240",
+      "rows": 54240,
+      "seconds": 3.2684367499999993,
+      "rows_per_second": 16595.08938026719,
+      "exit_code": 0,
+      "R2": 0.7980803178807725,
+      "MAE": 0.4028924199087626,
+      "RMSE": 0.5605375620747008,
+      "stdout_tail": [
+        "Predictions written: /Users/catmushroomliu/Documents/code/MICA/benchmarks/outputs/ood_54240_predictions.csv"
+      ],
+      "stderr_tail": []
+    },
+    {
+      "task": "screen_ood_54240",
+      "rows": 54240,
+      "output_rows": 4510,
+      "seconds": 0.9101534579999999,
+      "rows_per_second": 59594.34590205117,
+      "exit_code": 0,
+      "stdout_tail": [
+        "Screening table written: /Users/catmushroomliu/Documents/code/MICA/benchmarks/outputs/ood_54240_screen_top10.csv"
+      ],
+      "stderr_tail": []
+    }
+  ]
+}

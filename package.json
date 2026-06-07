@@ -1,0 +1,45 @@
+{
+  "name": "mica-solv",
+  "version": "0.2.0",
+  "description": "MICA: Molecular Inference of Compatibility and Affinity for high-throughput solubility prediction.",
+  "type": "commonjs",
+  "bin": {
+    "mica": "./bin/mica.js"
+  },
+  "files": [
+    "bin",
+    "mica/*.py",
+    "mica/data/**",
+    "docs",
+    "artifacts/mica_top47_bundle/features/**",
+    "artifacts/mica_top47_bundle/models/**",
+    "artifacts/mica_top47_bundle/metadata.json",
+    "artifacts/mica_top47_bundle/model_manifest.csv",
+    "artifacts/mica_top47_bundle/ood_solvents.csv",
+    "artifacts/mica_top47_bundle/required_features.json",
+    "artifacts/mica_top47_bundle/solvent_domain.csv",
+    "artifacts/mica_top47_bundle/training_feature_ranges.csv",
+    "examples/example_full98_features.csv",
+    "README.md",
+    "pyproject.toml",
+    "LICENSE",
+    "CITATION.cff"
+  ],
+  "scripts": {
+    "doctor": "node ./bin/mica.js doctor",
+    "smoke": "node ./bin/mica.js inspect --bundle artifacts/mica_top47_bundle"
+  },
+  "keywords": [
+    "solubility",
+    "cheminformatics",
+    "machine-learning",
+    "solvent-screening",
+    "xgboost",
+    "chemistry"
+  ],
+  "author": "Ziqi Liu",
+  "license": "MIT",
+  "engines": {
+    "node": ">=18"
+  }
+}

@@ -1,0 +1,16 @@
+cff-version: 1.2.0
+message: "If you use MICA, please cite the associated CAT-Solv work."
+title: "MICA: Molecular Inference of Compatibility and Affinity"
+authors:
+  - family-names: "Liu"
+    given-names: "Ziqi"
+version: "0.2.0"
+date-released: "2026-05-01"
+license: "MIT"
+repository-code: "https://github.com/catmushroomliu-sketch/MICA"
+keywords:
+  - solubility
+  - solvent screening
+  - cheminformatics
+  - machine learning
+  - molecular compatibility

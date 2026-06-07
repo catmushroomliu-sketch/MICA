@@ -1,0 +1,32 @@
+name,smiles,cas,category,polarity_class,hbond_role,boiling_point_c,flash_point_c,green_flag,industrial_flag,notes
+Water,O,7732-18-5,aqueous,polar,donor_acceptor,100,,yes,yes,universal aqueous solvent
+DMSO,CS(C)=O,67-68-5,sulfoxide,polar_aprotic,acceptor,189,89,no,yes,strong polar aprotic solvent
+NMP,CN1CCCC1=O,872-50-4,lactam,polar_aprotic,acceptor,202,91,no,yes,strong polar aprotic solvent
+DMF,CN(C)C=O,68-12-2,amide,polar_aprotic,acceptor,153,58,no,yes,polar aprotic solvent
+DMAc,CN(C)C(C)=O,127-19-5,amide,polar_aprotic,acceptor,165,70,no,yes,polar aprotic solvent
+Acetonitrile,CC#N,75-05-8,nitrile,polar_aprotic,acceptor,82,2,no,yes,common polar aprotic solvent
+Methanol,CO,67-56-1,alcohol,polar_protic,donor_acceptor,65,11,no,yes,low molecular alcohol
+Ethanol,CCO,64-17-5,alcohol,polar_protic,donor_acceptor,78,13,yes,yes,common alcohol
+Isopropanol,CC(C)O,67-63-0,alcohol,polar_protic,donor_acceptor,82,12,yes,yes,common alcohol
+n-Butanol,CCCCO,71-36-3,alcohol,polar_protic,donor_acceptor,118,35,yes,yes,higher alcohol
+Ethylene glycol,OCCO,107-21-1,polyol,polar_protic,donor_acceptor,197,111,no,yes,polyol solvent
+Propylene carbonate,CC1COC(=O)O1,108-32-7,carbonate,polar_aprotic,acceptor,242,132,yes,yes,high-boiling carbonate
+Dimethyl carbonate,COC(=O)OC,616-38-6,carbonate,moderate_polar,acceptor,90,18,yes,yes,green carbonate solvent
+Ethyl acetate,CCOC(C)=O,141-78-6,ester,moderate_polar,acceptor,77,-4,yes,yes,common ester
+n-Propyl acetate,CCCOC(C)=O,109-60-4,ester,moderate_polar,acceptor,102,13,yes,yes,industrial ester
+Butyl acetate,CCCCOC(C)=O,123-86-4,ester,moderate_polar,acceptor,126,22,yes,yes,coating solvent
+Methyl ethyl ketone,CCC(C)=O,78-93-3,ketone,moderate_polar,acceptor,80,-6,no,yes,industrial ketone
+Acetone,CC(C)=O,67-64-1,ketone,moderate_polar,acceptor,56,-20,yes,yes,common ketone
+Cyclopentanone,O=C1CCCC1,120-92-3,ketone,moderate_polar,acceptor,131,30,no,yes,cyclic ketone
+Tetrahydrofuran,C1CCOC1,109-99-9,ether,moderate_polar,acceptor,66,-14,no,yes,ether solvent
+2-Methyltetrahydrofuran,CC1CCCO1,96-47-9,ether,moderate_polar,acceptor,80,-11,yes,yes,green ether alternative
+"1,4-Dioxane",C1COCCO1,123-91-1,ether,moderate_polar,acceptor,101,12,no,yes,cyclic ether
+Toluene,Cc1ccccc1,108-88-3,aromatic_hydrocarbon,nonpolar,none,111,4,no,yes,aromatic hydrocarbon
+Xylene,Cc1ccccc1C,1330-20-7,aromatic_hydrocarbon,nonpolar,none,139,27,no,yes,aromatic hydrocarbon mixture proxy
+Cyclohexane,C1CCCCC1,110-82-7,aliphatic_hydrocarbon,nonpolar,none,81,-20,no,yes,nonpolar hydrocarbon
+Heptane,CCCCCCC,142-82-5,aliphatic_hydrocarbon,nonpolar,none,98,-4,no,yes,nonpolar hydrocarbon
+Hexane,CCCCCC,110-54-3,aliphatic_hydrocarbon,nonpolar,none,69,-22,no,yes,nonpolar hydrocarbon
+Chloroform,ClC(Cl)Cl,67-66-3,halogenated,moderate_polar,donor_weak,61,,no,yes,halogenated solvent
+Dichloromethane,ClCCl,75-09-2,halogenated,moderate_polar,none,40,,no,yes,halogenated solvent
+Cyrene,O=C1OCC2CCC1O2,53716-82-8,bio_based,polar_aprotic,acceptor,227,108,yes,yes,bio-based dipolar aprotic solvent
+GVL,CC1CCC(=O)O1,108-29-2,lactone,moderate_polar,acceptor,207,96,yes,yes,gamma-valerolactone

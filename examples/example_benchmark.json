@@ -1,0 +1,17 @@
+{
+  "model_id": "cat-solv-47:xgboost",
+  "bundle": "/Users/catmushroomliu/Documents/code/MICA/artifacts/mica_top47_bundle",
+  "ood_protocol": "original-five leave-solvent-out, 20 seeds",
+  "seed_count": 20,
+  "R2_mean": 0.7883833939332014,
+  "R2_std": 0.008127044864693607,
+  "MAE_mean": 0.4130075896694477,
+  "RMSE_mean": 0.5737371733038579,
+  "metadata_benchmark": {
+    "ood_protocol": "original-five leave-solvent-out, 20 seeds",
+    "reported_top47_r2_mean": 0.7883833939332014,
+    "reported_top47_r2_std": 0.008127044864693633,
+    "bundle_check_r2_mean": 0.7883833939332014,
+    "bundle_check_r2_std": 0.008127044864693607
+  }
+}

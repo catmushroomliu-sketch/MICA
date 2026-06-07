@@ -1,0 +1,29 @@
+{
+  "title": "MICA JCIM Screening Report",
+  "input": "/Users/catmushroomliu/Documents/code/MICA/examples/example_screening_v02.csv",
+  "rows": 24,
+  "model_card": {
+    "model_from_output": {},
+    "bundle_metadata": {
+      "model_id": "cat-solv-47:xgboost",
+      "learner": "XGBoost",
+      "feature_layer": "CAT-Solv-47",
+      "feature_count": 47,
+      "endpoint": "temperature-dependent experimental logS for prepared solute-solvent descriptor rows",
+      "algorithm": "20-seed XGBoost ensemble with seed-specific validation-SHAP top-47 features",
+      "ood_protocol": "original-five leave-solvent-out, 20 seeds",
+      "recommended_use": "production/default CAT-Solv model"
+    }
+  },
+  "domain_summary": {
+    "rows": 25,
+    "status_counts": {
+      "PASS": 25
+    },
+    "solvent_domain_counts": {
+      "fixed_ood": 25
+    },
+    "mean_nan_feature_count": 0.0,
+    "mean_out_of_range_feature_count": 0.0
+  }
+}

@@ -1,0 +1,17 @@
+[project]
+name = "mica-solv"
+version = "0.2.0"
+description = "MICA: Molecular Inference of Compatibility and Affinity for solubility prediction."
+requires-python = ">=3.9"
+dependencies = [
+  "numpy",
+  "pandas",
+  "scikit-learn",
+  "xgboost",
+]
+
+[project.scripts]
+mica = "mica.cli:main"
+
+[tool.setuptools]
+packages = ["mica"]

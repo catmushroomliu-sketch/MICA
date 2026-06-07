@@ -1,0 +1,8 @@
+# XGBoost model files (Universal Binary JSON)
+*.ubj filter=lfs diff=lfs merge=lfs -text
+
+# scikit-learn model files
+*.joblib filter=lfs diff=lfs merge=lfs -text
+
+# Large prediction outputs
+artifacts/**/*.csv filter=lfs diff=lfs merge=lfs -text
